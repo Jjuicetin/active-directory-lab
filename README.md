@@ -1,8 +1,8 @@
-# 🛡️ Active Directory Home Lab (Windows Server 2022)
+# Active Directory Home Lab (Windows Server 2022)
 
 A simulated enterprise Active Directory environment built using Windows Server 2022 and Windows 10 Pro to practice identity management, networking, Group Policy, file permissions, and IT infrastructure design—following real-world IT best practices.
 
-🎯 Project Purpose
+## Project Purpose
 
 ### This lab is designed to:
 
@@ -65,7 +65,7 @@ Virtualization:	VirtualBox
 
  User and group management
 
- File server + shared folders (Coming soon...)
+ File server + shared folders
 
  NTFS permissions + Access Control
 
