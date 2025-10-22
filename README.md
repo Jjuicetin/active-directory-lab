@@ -51,7 +51,7 @@ Admin Tools:	PowerShell, Server Manager
 
 Virtualization:	VirtualBox
 
-🚀 Features Implemented
+### Features Implemented
 
  Active Directory domain: int.justy.com
 
@@ -71,4 +71,4 @@ Virtualization:	VirtualBox
 
  Group Policy for security hardening (Coming soon...)
 
- Folder Redirection for Documents/Desktop (Coming soon...)
+ Folder Redirection for Documents/Desktop
