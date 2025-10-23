@@ -23,10 +23,11 @@ This lab contains 3 virtual machines. Two consists of Windows Server 2022 domain
 | DC2 | Secondary Domain Controller | 10.0.2.51 | Redundancy |
 | guestUser | Client PC | 10.0.2.50 | Domain Joined |
 
+<br>
 
  > Pic below is to confirm the connection between the three devices
   
-![pinging to confirm network](https://github.com/user-attachments/assets/f2c55d1d-c2cc-4295-914b-ad743a9a3bb3)
+![pinging to confirm network](https://github.com/user-attachments/assets/843e6d1e-05a8-4b53-b02b-49d5510cf315)
 
 ### Lessons Learned + Troubleshooting
 
