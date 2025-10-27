@@ -80,6 +80,11 @@ The server will automatically restart after promotion.
 <img width="991" height="523" alt="image" src="https://github.com/user-attachments/assets/580cb5af-ae2b-4cdb-8d7e-881b7044f922" />
 
 ### Some Issues that Occurred and how I Fixed it
+#### NAT instead of NAT Network
+At first, the VM network was set up as NAT and not NAT Network. The domain controller and client VM shared the same IP address. I fixed it by changing the network to NAT Network.
+
+#### Can't ping to Client VM
+The domain controller could not ping to the Windows 10 Client machine. I used ipconfig and found out that the defualt gateway was blank. Then I enabled ICMP on the client after I found out that it was disabled by default due to security concerns.
 
 ### Lesson Learned
 * internal use domains should have int after the domain name as the ones without it are generally used for public use.
